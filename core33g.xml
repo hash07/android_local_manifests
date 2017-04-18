@@ -16,6 +16,9 @@
      limitations under the License.
 -->
 <manifest>
+
+	<remove-project name="LineageOS/android_packages_apps_CMFileManager"/>
+
 	<project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
 	<project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1"/>
 	<project path="device/samsung/sprd-common" name="hash07/android_device_samsung_sprd-common" remote="github" revision="cm-14.1"/>
@@ -27,4 +30,8 @@
 	<project path="kernel/samsung/core33g" name="hash07/android_kernel_samsung_core33g-1" remote="github" revision="cm-14.1"/>
 	<project path="vendor/samsung/core33g" name="hash07/android_vendor_samsung_core33g" remote="github" revision="cm-14.1"/>
 	<project path="vendor/samsung/scx30g-common" name="hash07/android_vendor_samsung_scx30g-common" remote="github" revision="cm-14.1"/>
+
+	<!-- CMFILEMANAGER -->
+	<project path="packages/apps/CMFileManager" name="AICP/android_packages_apps_CMFileManager" remote="github" revision="n7.1"/>
+
 </manifest>
