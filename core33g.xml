@@ -17,14 +17,14 @@
 -->
 <manifest>
 <!-- Lineage -->
-	<project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="lineage-15.0"/>
-	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-15.0"/>
-	<project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="lineage-15.0"/>
+	<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>
+	<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0"/>
+	<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0"/>
 <!-- Spreadtrum -->
-	<project path="hardware/sprd" name="hash07/android_hardware_sprd" remote="github" revision="cm-14.1"/>
-	<project path="device/samsung/sprd-common" name="hash07/android_device_samsung_sprd-common" remote="github" revision="cm-14.1"/>
+	<project path="hardware/sprd" name="hash07/android_hardware_sprd" remote="github" revision="core33g-cm13.0"/>
+	<project path="device/samsung/sprd-common" name="hash07/android_device_samsung_sprd-common" remote="github" revision="cm-13.0"/>
 <!-- core33g -->
-	<project path="device/samsung/core33g" name="hash07/android_device_samsung_core33g" remote="github" revision="los-15.0"/>
-	<project path="kernel/samsung/core33g" name="hash07/android_kernel_samsung_core33g" remote="github" revision="los-15.0"/>
-	<project path="vendor/samsung/core33g" name="hash07/android_vendor_samsung_core33g" remote="github" revision="cm-14.1"/>
+	<project path="device/samsung/core33g" name="hash07/android_device_samsung_core33g" remote="github" revision="los-13.0"/>
+	<project path="kernel/samsung/core33g" name="hash07/android_kernel_samsung_core33g" remote="github" revision="cm-14.1"/>
+	<project path="vendor/samsung/core33g" name="hash07/android_vendor_samsung_core33g" remote="github" revision="cm-13.0"/>
 </manifest>
