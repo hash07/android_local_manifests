@@ -23,5 +23,7 @@
 	<project path="device/samsung/ms013g" name="hash07/android_device_samsung_ms103g" remote="github" revision="lineage-14.1"/>
 	<project path="device/samsung/msm8226-common" name="hash07/android_device_samsung_msm8226-common" remote="github" revision="lineage-14.1"/>
 	<project path="kernel/samsung/ms013g" name="hash07/android_kernel_samsung_ms103g" remote="github" revision="lineage-14.1"/>
+	<remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+	<project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
 	<project path="vendor/samsung/ms103g" name="hash07/android_vendor_samsung_ms103g" remote="github" revision="lineage-14.1"/>
 </manifest>
